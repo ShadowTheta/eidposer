@@ -1,0 +1,84 @@
+.squats-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 40px 0;
+  }
+  
+  .squats-header {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .squats-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .webcam-container {
+    top: 15%;
+    width: 640px;
+    height: 480px;
+    margin-right: 20px;
+  }
+  
+  .webcam{
+    top: 15%
+  }
+  
+  .canvas{
+    top: 15%
+  }
+  
+  .canvas-container {
+    display: contents;
+    top: 15%;
+    width: 640px;
+    height: 480px;
+    margin-left: 20px;
+  }
+  
+  .squats-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .squats-start-button,
+  .squats-stop-button {
+    background-color: #4caf50;
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .squats-stop-button {
+    background-color: #f44336;
+  }
+  
+  .squat-counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .squat-counter-label {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .squat-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
