@@ -32,7 +32,7 @@ const Reasons = () => {
                     </div>
                     <div>
                         <img src={tick} alt="" />
-                        <span>TRAIN SMARTER ADN FASTER THAN BEFORE</span>
+                        <span>TRAIN SMARTER AND FASTER THAN BEFORE</span>
                     </div>
                     <div>
                         <img src={tick} alt="" />

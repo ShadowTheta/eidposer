@@ -9,7 +9,7 @@ const Programs = () => {
             <script type = "text/javascript" src = "Exercise.js"></script>
             {/* header */}
             <div className="programs-header">
-                <span className='stroke-text'>Explore our</span>
+                <span className='stroke-text'>Most Popular</span>
                 <span>Programs</span>
                 <span className='stroke-text'>to shape you</span>
             </div>

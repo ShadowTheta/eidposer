@@ -15,9 +15,9 @@ export const programsData = [
         />
       </svg>
     ),
-    heading: "Pushups",
+    heading: "Squats",
     details:
-      "In this program, you are trained to improve your strength through many exercises.",
+      "In this program, you are trained to improve your glutes and quadriceps.",
   },
   // Situps
   {
@@ -29,9 +29,9 @@ export const programsData = [
     <path d="M11.2044 10.8572L7.69352 8.35736C7.25489 8.07112 6.59604 8.14224 6.3048 8.6436C6.01179 9.07209 6.0846 9.71396 6.59782 10.0002L9.37703 12.0004L7.6953 15.6434C7.47509 16.1431 7.6953 16.7155 8.20674 16.9289C8.35236 17 8.49976 17 8.64538 17C9.0112 17 9.37703 16.7867 9.52265 16.4293L11.4974 12.0004C11.7158 11.643 11.5702 11.1417 11.2044 10.8572Z" />
     <path d="M15.3746 7.67116L12.66 7.0347L11.8525 4.63298C11.7064 4.20924 11.2661 3.99652 10.8258 4.13891C10.3856 4.27958 10.1646 4.70503 10.3125 5.12876L11.2661 7.95422C11.3392 8.23728 11.5602 8.44829 11.8525 8.51863L15.0092 9.29576H15.0823C15.5226 9.36609 15.8898 9.08475 15.9628 8.66102C16.1072 8.16523 15.8149 7.7415 15.3746 7.67116Z" />
     </svg>,
-    heading: "Situps",
+    heading: "Pushups",
     details:
-      "In this program, you are trained to do sequential moves in range of 20 until 30 minutes.",
+      "This program is suitable for those who want to grow stronger triceps and a bigger chest.",
   },
   // Squats
   {
@@ -39,10 +39,15 @@ export const programsData = [
     <path d="M10.3226 13.9301C9.09534 15.2434 7.39179 16 5.64653 16C5.18413 16 4.72174 15.9433 4.27326 15.8367C3.03558 15.5434 1.97869 14.8967 1.12691 13.9135C1.0991 13.8801 -1.25805 10.9803 0.928746 7.52058C1.04695 7.33726 1.17906 7.1706 1.28336 7.04395C2.23596 5.89402 3.16769 4.30413 2.6601 3.60085C2.62072 3.54516 2.59996 3.47929 2.60058 3.41201C2.60121 3.34473 2.62318 3.27922 2.66358 3.22421C2.74354 3.10755 2.89304 3.05422 3.0321 3.09088C3.16769 3.12088 4.21763 3.43753 4.44361 5.43072C4.67307 4.96409 4.87471 4.3408 4.82604 3.63085C4.75303 2.55425 4.13767 1.53099 2.99386 0.584388C2.93401 0.53482 2.89375 0.467037 2.87983 0.392398C2.8659 0.31776 2.87916 0.2408 2.91737 0.174416C2.99386 0.0377589 3.16422 -0.0322363 3.31719 0.0144272C3.39715 0.0344258 10.8267 2.19428 9.70027 9.57711C10.1348 9.13047 10.6181 8.26386 10.4999 6.6773C10.4895 6.52065 10.5903 6.38066 10.7433 6.33399C10.8997 6.28733 11.0666 6.35066 11.1465 6.48398C11.1709 6.52398 13.5176 10.507 10.3226 13.9301Z" />
     </svg>
     ,
-    heading: "Squats",
+    heading: "Yoga",
     details:
-      "This program is suitable for you who wants to get rid of your fat and lose their weight.",
+      "This program is suitable for strengthening of the mind and soul through proper breathing techniques",
   },
+
+];
+
+
+
   // Exercise 4
   // {
   //   image: <svg width="20" height="16" viewBox="0 0 20 16"  xmlns="http://www.w3.org/2000/svg">
@@ -53,7 +58,3 @@ export const programsData = [
   //   details:
   //     "This programs is designed for those who exercises only for their body fitness not body building.",
   // },
-];
-
-
-

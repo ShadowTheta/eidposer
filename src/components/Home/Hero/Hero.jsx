@@ -15,7 +15,7 @@ const Hero = () => {
 {/* The best ad */}
                 <div className="the-best-ad">
                     <div></div>
-                    <span>the best fitness club in the town</span>
+                    <span>the only gym partner you'll need</span>
                 </div>
 
             {/* Hero Heading */}
@@ -36,17 +36,13 @@ const Hero = () => {
             {/* figures */}
             <div className="figures">
                 <div>
-                    <span>+140</span>
-                    <span>expert coaches</span>
+                    <span>+20</span>
+                    <span>exercises</span>
                 </div>
                 <div>
                     <span>+1000</span>
                     <span>members joined</span>
                 </div>
-                <div>
-                    <span>+50</span>
-                    <span>exercises</span>
-                    </div>
             </div>
 
             {/* hero buttone */}
@@ -57,25 +53,25 @@ const Hero = () => {
         </div>
         <div className="right-h">
             <button className='btn'>Join now</button>
-            <div className="heart-rate">
+            {/* <div className="heart-rate">
                 <img src={Heart} alt="" />
                 <span>Heart Rate</span>
                 <span>120 bpm</span>
-            </div>
+            </div> */}
 
             {/* hero images */}
             <img src={hero_image} alt="" className='hero-image'/>
             <img src={hero_image_back} alt="" className='hero-image-back'/>
             
             
-            {/* Calories */}
+            {/* Calories
             <div className="calories">
                 <img src={Calories} alt="" />
                 <div>
                     <span>Calories Burned</span>
                     <span>220kcal</span>
                 </div>   
-            </div>
+            </div> */}
         
         </div>
     </div>

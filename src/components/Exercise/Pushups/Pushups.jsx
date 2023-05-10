@@ -265,6 +265,7 @@ function Pushups() {
     webcamRef.current.video.width = videoWidth;
     webcamRef.current.video.height = videoHeight;
     const pose = await net.estimateSinglePose(video);
+    console.log(pose);
     drawCanvas(pose, video, videoWidth, videoHeight, canvasRef);
     checkPushup(pose);
   }
