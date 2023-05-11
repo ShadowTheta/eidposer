@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise Page</title>
+</head>
+<body>
+	<h1>Exercise Page</h1>
+	<video id="video" width="640" height="480" autoplay></video>
+	<br>
+	<button onclick="document.getElementById('video').play()">Play</button>
+	<button onclick="document.getElementById('video').pause()">Pause</button>
+	<button onclick="document.getElementById('video').currentTime += 10">Skip 10 seconds</button>
+	<br>
+	<script>
+		var video = document.getElementById('video');
+		video.src = '/exercise';
+	</script>
+</body>
+</html>
